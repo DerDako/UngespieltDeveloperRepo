@@ -1,0 +1,75 @@
+name: Essentials
+main: me.dako.essentials.Essentials
+author: Dako
+version: 1.0
+
+commands:
+  crash:
+    description: Crashed einen Client
+    usage: /<cmd> <Player>
+  fly:
+    description: Aktiviert den Flugmodus
+    usage: /<cmd> <nothing(->you)|Player>
+  time:
+    description: Setzt die Zeit
+    usage: /<cmd> <day|night|noon|evening>
+  bigtree:
+    description: Erschafft einen Baum!
+    usage: /<cmd> <tree|redwood|jungle>
+  break:
+    description: Zerstoert den anvisierten Block
+    usage: /<cmd>
+  exp:
+    description: Gibt einem Spieler Exp
+    usage: /<cmd> <Player>
+  feed:
+    description: Fuettert einen Spieler
+    usage: /<cmd> <nothing(->you)|Player>
+  god:
+    description: Schaltet den Gottmodus ein/aus!
+    usage: /<cmd> <nothing(->you)|Player>
+  hat:
+    description: Setzt einen Hut!
+    usage: /<cmd> <off>
+  heal:
+    description: Heilt einen Spieler
+    usage: /<cmd> <nothing(->you)|Player>
+  tree:
+    description: Setzt einen kleinen Baum!
+    usage: /<cmd> <tree|birch|redwood|redmushroom|brownmushroom|jungle|junglebush|swamp>
+  tornado:
+    description: Erzeugt einen Tornado!
+    usage: /<cmd> <duration> <blockID>
+  flyspeed:
+    description: Setzt die Fluggeschindigkeit
+    usage: /<cmd> <Amount(std.1)|nothing(->Reset)> <nothing(->you)|Player>
+  walkspeed:
+    description: Setzt die Laufgeschindigkeit
+    usage: /<cmd> <Amount(std.2)|nothing(->Reset)> <nothing(->you)|Player>
+  workbench:
+    description: Ein CraftingInterface wird erscheinen.
+    usage: /<cmd>
+  enderchest:
+    description: Die Endertruhe eines Spielers(oder deine) wird erscheinen.
+    usage: /<cmd> <nothing(->you)|Player>
+  openinventory:
+    description: Das Inventar eines Spielers(oder deins) wird erscheinen.
+    usage: /<cmd> <nothing(->you)|Player>
+  mute:
+    description: (Ent)Mutet einen Spieler oder den Server
+    usage: /<cmd> <Player|- Global>
+  tpall:
+    description: Teleportiert alle Spieler zu dir oder dem Ziel-Spieler.
+    usage: /<cmd> <nothing(->you)|Player>
+  butcher:
+    description: Vernichtet alle feindlichen Monster
+    usage: /<cmd> <radius(0/- = complete world)>
+  killall:
+    description: Vernichtet alle Lebewesen,ausgenommen Spieler
+    usage: /<cmd> <radius(0/- = complete world)>
+  weather:
+    description: Veraendert das Wetter
+    usage: /<cmd> <sun|rain|storm>
+  broadcast:
+    description: Sendet allen Spielern eine Nachricht
+    usage: /<cmd> <message>
